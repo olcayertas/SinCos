@@ -100,6 +100,9 @@ public class SinAndCos extends JFrame {
         }
     }
 
+    /**
+     * Constructor.
+     */
     public SinAndCos() {
         setLayout(new BorderLayout());
         add(new SinAndCos.DrawSine(), BorderLayout.CENTER);
